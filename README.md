@@ -6,7 +6,7 @@
 
 我们可以建立一份如下格式的表格，来实时记录当前的协作状态：
 
-<img src="images/资金仓位表.jpg" style="zoom:45%;" /> 
+<img src="https://liyi.chengyishu.net/posts/49970/资金仓位表.jpg" style="zoom:45%;" /> 
 
 资金部工作内容：记录本次开仓设定的本金数量，实时报告剩余的可授权资金数量以及备用金数量。
 

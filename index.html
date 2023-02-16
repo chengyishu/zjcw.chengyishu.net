@@ -226,13 +226,14 @@
 	  	//计算市场部
 	  	function SCB(A, byjRate, pcRate) {
 	  		//计算公式
+	  		let B = A*(1-byjRate);
 	  		let pc0Minus = -A*0.1;
-	  		let pc1Minus = -A*0.09;
-	  		let pc3Minus = -A*0.045;
+	  		let pc1Minus = -B*0.1;
+	  		let pc3Minus = -B*0.05;
 	  		let pc5Base = 0;
-	  		let pc7Plus = A*0.045;
-	  		let pc9Plus = A*0.09;
-	  		let pciPlus = A*0.18;
+	  		let pc7Plus = B*0.05;
+	  		let pc9Plus = B*0.1;
+	  		let pciPlus = B*0.2;
 	  		let i = A*0.09;
 	  		//显示结果
 	  		$('#scb-pc0-minus').text(number_format(pc0Minus));
